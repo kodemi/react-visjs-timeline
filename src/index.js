@@ -43,7 +43,6 @@ export default class Timeline extends Component {
       customTimes: [],
     }
     this.oldHandlers = {}
-    console.log('Timeline constructor', props)
   }
 
   componentWillUnmount() {
