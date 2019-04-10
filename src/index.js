@@ -103,7 +103,7 @@ export default class Timeline extends Component {
       const handler = this.props[key]
       if (handler) {
         this.$el.on(event, handler)
-        this.oldHandlers[key] = handler
+        this.oldHandlers[event] = handler
       }
     })
 
